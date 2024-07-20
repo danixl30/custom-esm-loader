@@ -1,0 +1,22 @@
+{
+  "name": "esm-import-loader",
+  "version": "1.0.0",
+  "description": "Is a loader to fix the esm resolver to ocept commonjs paths",
+  "main": "./loaders/loader.js",
+  "module": "./loaders/loader.js",
+  "exports": {
+    ".": {
+      "import": "./loaders/loader.js",
+      "default": "./loaders/loader.js"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ESM"
+  ],
+  "author": "danixl30",
+  "license": "ISC"
+}
