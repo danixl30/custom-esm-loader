@@ -1,6 +1,6 @@
 {
   "name": "esm-import-loader",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Is a loader to fix the esm resolver to ocept commonjs paths",
   "main": "./loaders/loader.js",
   "module": "./loaders/loader.js",
